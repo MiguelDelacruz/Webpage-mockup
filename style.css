@@ -1,0 +1,66 @@
+.container {
+  width: auto;
+  max-width: 835px;
+  background-color: #fff;
+  box-shadow: 0 0 225px rgba(255,255,255,0.5);
+  margin-bottom: 15px;
+  background-clip: padding-box;
+  padding-top: 20px;
+}
+.dropdown-toggle {
+  color: inherit;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+.navbar-default {
+  width: auto;
+  background-color: #fff;
+  box-shadow: 0 0 225px rgba(255,255,255,0.5);
+}
+
+a {
+  width: auto;
+  max-width: 835px;
+  background-color: #fff;
+  align-content: center;
+  display: block;
+}
+
+
+li  {
+  text-align:
+}
+.nav>li>a {
+    color: inherit;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    height: 46px;
+    line-height: 1;
+}
+
+
+#PageCanvas {
+  clear: both;
+  padding: 56px 14px 15px;
+  position: relative;
+  display: block;
+  align-content: center;
+}
+
+body {
+  background-color: gray;
+  background: #e6ecf0;
+  color: #14171a;
+  font-size: 14px;
+  line-height: 20px;
+  overflow-y: scroll;
+}
+
+input {
+  padding: 4px;
+  border: 1px solid #e6ecf0;
+  display: block;
+}

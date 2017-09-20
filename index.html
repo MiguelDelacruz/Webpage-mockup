@@ -1,10 +1,101 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title>Webpage-mockup </title>
+    <title>Webpage-Mockup</title>
   </head>
   <body>
 
+    <div class="NavBar">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container2">
+          <div class="navbar-header">
+            <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"> <span class="Icon Icon--bird Icon--large"></span></span></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-nav-demo">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language:English
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Spanish</a></li>
+              <li><a href="#">Chinese</a></li>
+              <li><a href="#">Russian</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+  <div class="container">
+    <div class="page-canvas">
+      <br>
+      <br>
+
+    <div class="signin-wrapper" data-login-message="">
+      <h1 id="PageCanvas">Log in to Twitter</h1>
+      <form action="https://twitter.com/sessions" class="t1-form clearfix signin js-signin" method="post">
+
+
+    <div class="clearfix-field">
+      <input class="js-username-field email-input js-initial-focus" type="text" name="session[username_or_email]" autocomplete="on" value="" placeholder="Phone, email or username">
+    </div>
+    <div class="clearfix-field">
+      <input class="js-password-field" type="password" name="session[password]" placeholder="Password">
+
+    </div>
+
+    <input type="hidden" value="a860b79d732f614c026923bfc1dbbf6ca60cdcb3" name="authenticity_token">
+
+        <input type="hidden" name="ui_metrics" autocomplete="off" value="{&quot;rf&quot;:{&quot;a3efe33f7945e9f5bd86eb5096a0e101f87af7ad9742528737e8902f3a40b19b&quot;:125,&quot;a3f2a86cde177e31e6f036b9c0e7e8252344308d383564c770528747a3b1bb34&quot;:-1,&quot;dc534e132be50eebe0a3e6aa5eaf62ddc66cdf965a2f1f3e70a69e92d71803c6&quot;:-1,&quot;ae4d97a9148329f55f3c442e78ba8aabc13cf9b97d6bf9ead7ed5742a291fba3&quot;:0},&quot;s&quot;:&quot;xV2T9AxkqNif6kxTDj9c53ZunHz7rDBQRbORsWQcKu0CZ60g41eFOVaOhYF5l0mWOkKjgcD2iOBTsIv9pl5BG93wBVIM8CfsL8qqL7MEKKhhWYmoAqjqX33BipbIItuJPjDc0HIAskie-TB8MBlyboZsQcPr52nxbierWLUomwOpjkGyFUfpb2nIdjT6-f8l_A-MJGP4MPRr8ahKR_5lMwBzMPFl5FhzN-EMrIr4ojawfLN7s5-T3Ay-6sOIv6pS9YlBjzrmzjNexJHu8q4Jt76WvavgLf-wvIUA7a-fyxC892wsXvEHNeS5wHtF1PBIb2MROOONoFhQ_7YG4vi5iAAAAV6TgCRW&quot;}">
+        <script src="/i/js_inst?c_name=ui_metrics" async=""></script>
+
+  </fieldset>
+
+        <div class="captcha js-captcha">
+        </div>
+        <div class="clearfix">
+
+    <input type="hidden" name="scribe_log">
+    <input type="hidden" name="redirect_after_login" value="">
+    <input type="hidden" value="a860b79d732f614c026923bfc1dbbf6ca60cdcb3" name="authenticity_token">
+    <button type="submit" class="submit EdgeButton EdgeButton--primary EdgeButtom--medium">Log in</button>
+
+    <div class="subchck">
+      <label class="t1-label remember">
+        <input type="checkbox" value="1" name="remember_me" checked="checked">
+        Remember me
+        <span class="separator">·</span>
+        <a class="forgot" href="/account/begin_password_reset" rel="noopener">Forgot password?</a>
+      </label>
+    </div>
+  </div>
+
+      </form>
+    </div>
+
+    <div class="clearfix mobile has-sms">
+      <p class="signup-helper">
+        New to Twitter?
+        <a id="login-signup-link" href="https://twitter.com/signup">Sign up now »</a>
+      </p>
+      <p class="sms-helper">
+        Already using Twitter via text message?
+        <a href="/account/complete">Activate your account »</a>
+      </p>
+    </div>
+
+  </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
