@@ -11,8 +11,25 @@
 }
 
 div.col-md-8 {
-  border: solid;
+  background-color: #f5f8fa;
+  border: solid 1px #e6ecf0;
 }
+
+#loginarea {
+  background-color: white;
+
+}
+.PageCanvas {
+
+}
+div.row {
+
+}
+body {
+  background-color: #e6ecf0;
+}
+
+
 /*.container {
   width: auto;
   max-width: 835px;
