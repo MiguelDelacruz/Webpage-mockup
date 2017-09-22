@@ -11,15 +11,19 @@
 }
 
 div.col-md-8 {
-  background-color: #f5f8fa;
-  border: solid 1px #e6ecf0;
+
+  /*border: solid 1px #e6ecf0;*/
 }
 
 #loginarea {
-  background-color: white;
+  border-bottom: solid ;
 
 }
 .PageCanvas {
+  border: solid ;
+  margin-right:250px ;
+  margin-left:250px ;
+  background-color: white;
 
 }
 div.row {
