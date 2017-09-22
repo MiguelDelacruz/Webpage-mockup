@@ -2,90 +2,76 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title>Webpage-Mockup</title>
   </head>
   <body>
 
   <div class="NavBar">
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container2">
-          <div class="navbar-header">
-            <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"> <span class="Icon Icon--bird Icon--large"></span></span></a>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-nav-demo">
-            <ul class="nav navbar-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language:English
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Spanish</a></li>
-              <li><a href="#">Chinese</a></li>
-              <li><a href="#">Russian</a></li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"> <span class="Icon Icon--bird Icon--large"></span></span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Language:English
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Spanish</a></li>
+          <li><a href="#">Chinese</a></li>
+          <li><a href="#">Russian</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="page-canvas">
+
+        <div class="signin-wrapper" data-login-message="">
+          <h3 id="PageCanvas"><strong>Log in to Twitter</strong></h3>
+          <form action="https://twitter.com/sessions" class="t1-form clearfix signin js-signin" method="post">
+
+
+        <div class="clearfix-field">
+          <input class="js-username-field email-input js-initial-focus" type="text" name="session[username_or_email]" autocomplete="on" value="" placeholder="Phone, email or username">
         </div>
-      </nav>
-
-
-<div class="container">
-  <div class="page-canvas">
-      <br>
-      <br>
-
-    <div class="signin-wrapper" data-login-message="">
-      <h3 id="PageCanvas"><strong>Log in to Twitter</strong></h3>
-      <form action="https://twitter.com/sessions" class="t1-form clearfix signin js-signin" method="post">
-
-
-    <div class="clearfix-field">
-      <input class="js-username-field email-input js-initial-focus" type="text" name="session[username_or_email]" autocomplete="on" value="" placeholder="Phone, email or username">
-    </div>
-    <div class="clearfix-field">
-      <input class="js-password-field" type="password" name="session[password]" placeholder="Password">
-
-    </div>
-
-    <input type="hidden" value="a860b79d732f614c026923bfc1dbbf6ca60cdcb3" name="authenticity_token">
-
-  
-
-        <div class="captcha js-captcha">
+        <div class="clearfix-field">
+          <input class="js-password-field" type="password" name="session[password]" placeholder="Password">
         </div>
+
+        <input type="hidden" value="a860b79d732f614c026923bfc1dbbf6ca60cdcb3" name="authenticity_token">
+
+        <div class="captcha js-captcha"></div>
         <div class="clearfix">
 
-    <button type="button" class="btn btn-primary btn-md">Log in</button>
+        <button type="button" class="btn btn-primary btn-md">Log in</button>
 
-    <div class="subchck">
-      <label class="t1-label remember">
-        <input type="checkbox" value="1" name="remember_me" checked="checked">
-        Remember me
-        <span class="separator">·</span>
-        <a class="forgot" href="/account/begin_password_reset" rel="noopener">Forgot password?</a>
-      </label>
-    </div>
-<div class="bottomhalf">
-  <p class="signup-helper">
-        New to Twitter?
-        <a id="login-signup-link" href="https://twitter.com/signup">Sign up now »</a>
-      </p>
-      <p class="sms-helper">
-        Already using Twitter via text message?
-        <a href="/account/complete">Activate your account »</a>
-      </p>
+        <div class="subchck">
+          <label class="t1-label remember">
+            <input type="checkbox" value="1" name="remember_me" checked="checked">
+            Remember me
+            <span class="separator">·</span>
+            <a class="forgot" href="/account/begin_password_reset" rel="noopener">Forgot password?</a>
+          </label>
+        </div>
+      <div class="bottomhalf">
+        <p class="signup-helper">
+          New to Twitter?
+          <a id="login-signup-link" href="https://twitter.com/signup">Sign up now »</a>
+        </p>
+        <p class="sms-helper">
+          Already using Twitter via text message?
+          <a href="/account/complete">Activate your account »</a>
+        </p>
       </div>
-         
+    </div>
+</form>
 </div>
-   
-
-
-  
-
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
