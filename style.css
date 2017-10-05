@@ -10,27 +10,42 @@
   margin-bottom: 20px;
 }
 
+#cuck {
+  margin: 15px;
+  margin-bottom: 0.5px;
+}
+
 div.col-md-8 {
 
-  /*border: solid 1px #e6ecf0;*/
+}
+
+.col-l-3 {
+margin-top: 10px;
 }
 
 #loginarea {
-  border-bottom: solid ;
+;
 
 }
 .PageCanvas {
-  border: solid ;
-  margin-right:250px ;
-  margin-left:250px ;
+  border: solid  0.5px #E2E2E2 ;
+  margin-right:220px ;
+  margin-left:220px ;
   background-color: white;
+  width: auto;
+  max-width: 835px;
+  margin-bottom: 15px;
 
 }
-div.row {
+.navbar navbar-default {
+  border-bottom: solid  ;
 
 }
 body {
   background-color: #e6ecf0;
+}
+div {
+  display: block;
 }
 
  .container {
@@ -44,10 +59,11 @@ body {
     text-align: left;
 }
 
-
-
-
-
+#menu-0 {
+  display: table;
+  margin-top: 15%;
+  color: #777;;
+}
 
 
 .pull-right .dropdown-toggle {
@@ -58,4 +74,11 @@ body {
 .pull-right .dropdown-toggle {
     overflow: hidden;
     padding: 0;
+}
+
+.navbar-header {
+  background-image: 
+}
+#bird {
+  margin: 100px
 }
